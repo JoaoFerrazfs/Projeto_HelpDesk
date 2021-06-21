@@ -1,2 +1,2 @@
 ﻿Aprendizado em PHP
-<button> TESTE </Button>
+<button> TESTE </button>
