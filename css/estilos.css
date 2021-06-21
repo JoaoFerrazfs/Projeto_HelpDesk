@@ -1,0 +1,331 @@
+#backgroudlogin {
+    background-color: black;
+    background-image: url("../imagem/fundoLogin.jpg");
+}
+
+.formulario {
+    background-color: rgba(0, 0, 105, 0.119);
+    margin-top: 60px;
+    margin-left: 450px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+
+
+}
+
+.formulario img {
+    margin-top: 20px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.formulario fieldset {
+    border: none;
+
+}
+
+.formulario a {
+    text-decoration: none;
+    color: black;
+    margin-left: 180px;
+    font-size: 15px;
+
+}
+
+#loginusuario,
+#loginsenha {
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    height: 35px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+#enviarlogin {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 100);
+    color: white;
+}
+
+
+
+.principal {
+    width: 920px;
+    margin-left: 200px;    
+    text-align: center;   
+    float: left;
+
+
+}
+
+.principal h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 90px;
+    
+
+}
+
+.principal a {
+   
+   width: 230px;
+   height: 20px;
+    margin-left: 50px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 100);
+    text-decoration: none;
+    
+    border-radius: 50px;
+    border: none;
+}
+
+.botaoSair{
+    
+    margin-right: 100px;
+    width: 80px;
+    float: right;    
+}
+
+.sair{   
+   
+    max-width: 30px;
+    max-height: 30px;
+
+}
+
+.perfilTotal {
+    background-color: rgb(0, 0, 100);
+    margin-left: 1250px;    
+    margin-top: 2px;  
+
+}
+
+.perfil {
+    
+    width: 100px;
+    height: 150px;
+}
+
+.perfil a,
+p {
+
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.perfil img {
+    margin-top: -30px;
+    margin-left: 18px;
+    max-width: 60px;
+    max-height: 60px;
+
+}
+
+
+
+#listaChamados {
+    clear: both;
+    margin-left: 15px;
+    padding-top: 40px;
+
+}
+
+.tabchamados  {
+    font-size: 18px;
+    border-style: solid;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    
+}
+
+.cabecalho th {
+    background-color: rgb(0, 0, 100);
+    border-style: solid;
+    font-size: 25px;
+    color: white;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 44.5px;
+
+}
+
+.cabecalho td {
+
+    border-color: black;
+    color: white;
+    
+
+}
+
+.corpo td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+#filtro {
+    border: thin solid black;
+    margin-bottom: 5px;
+}
+
+#filtroNumeroChamado,
+#requisitante,
+#filtroUsuario,
+#filtroStatus,
+#filtroData {
+
+    width: 240px;
+    height: 20px;
+    text-align: center;
+
+}
+
+#filtro img {
+    float: right;
+    max-width: 20px;
+    max-height: 20px;
+    padding-top: 2px;
+
+}
+
+#corpoAtualizar {
+    width: 680px;
+    height: 780px;
+    border-style: solid;
+    margin-left: 350px;
+    margin-top: 100px;
+    text-align: right;
+    overflow: visible;
+}
+
+#corpoCriarChamadoAnalista{
+    width: 680px;
+    height: 650px;
+    border-style: solid;
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: right;
+    overflow: visible;
+
+}
+
+#criarresumo{
+    margin-left:8px;
+    width: 530px;
+}
+#corpoCriarChamadoUsuario{
+    width: 680px;
+    height: 550px;
+    border-style: solid;
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: right;
+    overflow: visible;
+
+
+}
+
+
+.dadosIniciais {
+    text-align: left;
+    margin: 20px;
+}
+
+.dadosIniciais input {
+    width: 510px;
+}
+
+.dadosSecundarios {
+    text-align: left;
+    margin: 20px 20px;
+
+}
+
+.dadosSecundarios input,
+select {
+    width: 255px;
+    margin-bottom: 20px;
+
+}
+
+
+.classificacoes {
+    text-align: left;
+
+}
+
+.dadosSecundarios textarea {
+    
+    height: 200px;
+    width: 600px;
+
+}
+
+
+.classificacoes label {
+    display: block;
+    margin: 20px;
+
+}
+
+.classificacoes p {
+
+    display: inline-block;
+    width: 200px;
+}
+
+
+#botoesAtualizar {
+
+    text-align: center;
+    margin-left: 480px;
+    width: 200px;
+}
+
+.tags {
+
+    margin-right: 70px;
+}
+
+.tags label {
+    font-size: 10px;
+    margin-left: 32px;
+}
+
+
+
+.imagens img {
+    margin-right: 35px;
+    max-width: 30px;
+    max-height: 30px;
+
+
+}
+
+.classificacoes p {
+    border-style: solid;
+    border-radius: 20px;
+    width: 100px;
+
+}
+
+.corpoContatos{
+     margin-left: 50px;
+}
